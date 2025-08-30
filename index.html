@@ -177,12 +177,19 @@
 
     </main>
 
+
+
 <footer>
-    <div class="flex justify-between items-center mt-12">
+    <div class="flex flex-col-reverse md:flex-row justify-between items-center mt-12 px-4 sm:px-0">
+        <!-- Right section with image -->
+        <div class="w-full md:w-1/2 order-1 md:order-none">
+            <img src="images/shopping.png" alt="Shopping" class="w-full h-auto rounded-xl shadow-lg">
+        </div>
+
         <!-- Left section with 4 cards -->
-        <div class="space-y-6 ml-12">
+        <div class="space-y-6 w-full md:w-1/2 order-0 md:order-none mx-auto flex flex-col items-center">
             <!-- First card -->
-            <div class="flex items-center ml-20 bg-white p-5 rounded-xl shadow-lg w-100">
+            <div class="flex items-center bg-white p-5 rounded-xl shadow-lg w-full md:w-96">
                 <img src="icons/house.png" alt="Icon" class="w-14 h-14 bg-[#F1F1F1] rounded-full p-2">
                 <div class="ml-6">
                     <h1 class="text-2xl font-bold text-[#363958]">Find the Perfect Fit</h1>
@@ -191,7 +198,7 @@
             </div>
             
             <!-- Second card -->
-            <div class="flex items-center ml-20 bg-white p-6 rounded-xl shadow-lg w-100">
+            <div class="flex items-center bg-white p-6 rounded-xl shadow-lg w-full md:w-96">
                 <img src="icons/question.png" alt="Icon" class="w-14 h-14 bg-[#F1F1F1] rounded-full p-2">
                 <div class="ml-6">
                     <h1 class="text-2xl font-bold text-[#363958]">Free Exchanges</h1>
@@ -200,7 +207,7 @@
             </div>
             
             <!-- Third card -->
-            <div class="flex items-center ml-20 bg-white p-6 rounded-xl shadow-lg w-100">
+            <div class="flex items-center bg-white p-6 rounded-xl shadow-lg w-full md:w-96">
                 <img src="icons/box.png" alt="Icon" class="w-14 h-14 bg-[#F1F1F1] rounded-full p-2">
                 <div class="ml-6">
                     <h1 class="text-2xl font-bold text-[#363958]">Contact Our Seller</h1>
@@ -208,13 +215,10 @@
                 </div>
             </div>
         </div>
-
-        <!-- Right section with image -->
-        <div class="w-1/2">
-            <img src="images/shopping.png" alt="Shopping" class="w-full h-auto rounded-xl shadow-lg">
-        </div>
     </div>
 </footer>
+
+
 
 
 </body>
